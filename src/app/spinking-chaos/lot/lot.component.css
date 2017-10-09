@@ -1,0 +1,27 @@
+.lot-wrapper {
+    margin-right: 20px;
+    width: 180px;
+    float: left;
+}
+
+.lot-container {
+    flex-wrap: inherit;
+    background-color: #1c1a2a;
+    padding: 20px;
+    border: 1px solid #333145;
+    color: #fff36c;
+    min-height: 220px;
+}
+
+.lot-container img {
+    display: block;
+    margin: 10px auto;
+}
+
+.lot-container .lot-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

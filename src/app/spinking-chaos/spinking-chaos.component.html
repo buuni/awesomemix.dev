@@ -1,0 +1,10 @@
+<div class="spinking-chaos col-sm-6 col-sm-offset-3">
+    <div class="lots">
+        <div class="lots-container row">
+            <div class="lots-wrapper" #wrapper >
+                <app-lot *ngFor="let lot of renderLots" [lot]="lot"></app-lot>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-green btn-lg" (click)="startGame()" [ngStyle]="{margin: '20px 0'}">Играть</button>
+</div>

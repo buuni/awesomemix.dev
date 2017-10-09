@@ -1,0 +1,23 @@
+.header-middle {
+    background: url(https://csgomix.com/templates/default//img/header-bg.jpg);
+    background-clip: border-box;
+    position: relative;
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: #fff;
+    height: 200px;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.page-title span {
+    padding-left: 20px;
+    line-height: 3;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+}

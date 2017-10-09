@@ -1,0 +1,77 @@
+.spinking-chaos {
+    margin-top: 50px;
+    border: 1px solid #333145;
+    background-color: rgb(28, 26, 42);
+}
+
+.lots-container {
+    padding: 20px 0;
+    background-color: #181624;
+    overflow: hidden;
+    height: 260px;
+}
+
+.lots-container:after,
+.lots-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 260px;
+    z-index: 2;
+    opacity: 0.99;
+}
+
+.lots-container:before {
+    right: -15px;
+    background-image: linear-gradient(to left, #181624 0%, transparent 100%);
+}
+
+.lots-container:after {
+    left: -15px;
+    background-image: linear-gradient(to right, #181624 0%, transparent 100%);
+}
+
+.lots {
+    position: relative;
+}
+
+.lots:after, .lots:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    width: 23px;
+    height: 24px;
+    background: url(~assets/img/spinking-arrow.png) no-repeat 0 0;
+    display: block;
+    z-index: 2;
+}
+
+.lots:after {
+    top: 9px;
+}
+
+.lots:before {
+    transform: rotate(180deg);
+    bottom: 4px;
+}
+
+.lots-wrapper {
+    width: 10000px;
+    animation-iteration-count: infinite;
+}
+
+.btn-green {
+    color: #1c1a2a;
+    border: 1px solid #12ff00;
+    background: #12ff00;
+    height: 34px;
+    line-height: 36px;
+    font-weight: 700;
+    width: 132px!important;
+    font-size: 13px!important;
+    padding: 0 15px!important;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
